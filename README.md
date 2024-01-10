@@ -6,7 +6,7 @@
 
 - <b>Processor</b>: AMD Ryzen 5 5600H  
 - <b>iGPU</b>: AMD Radeon RX Vega 7  
-- <b>Storage</b> SSD INTEL 512GB 670P M.2 SSDPEKNU512GZX1 PCIe 3.0 x4 NVMe 
+- <b>Storage</b>: SSD INTEL 512GB 670P M.2 SSDPEKNU512GZX1 PCIe 3.0 x4 NVMe 
 - <b>Ram</b>:  8GB DDR4 on board + 8GB DDR4 SO-DIMM
 - <b>Wireless & Bluetooth</b> : ~~Mediatek MT7921~~ Intel AX200 (Replaced)
 - <b>Audio Codec</b>: ALC256
@@ -27,7 +27,7 @@
 - [x] Trackpad
 - [x] Keyboard (Including Volumes & Brightness)
 - [x] Wifi & Bluetooth (Intel)
-- [x] Sleep & Wake (Lid, Menu, & Idle)
+- [x] Sleep & Wake (Clamshell, Menu, & Idle)
 - [x] Some Apps (Firefox, VSCode, Discord, etc)
 - [x] Some VMs/Emulators (Bluestack, iPhone Simulator, Docker (Minikube))
 - [x] Some Games (Roblox, etc)
