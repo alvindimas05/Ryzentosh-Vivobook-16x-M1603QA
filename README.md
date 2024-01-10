@@ -1,4 +1,4 @@
-# EFI Hackintosh Laptop ASUS Vivobook 14x M1603QA
+# EFI Hackintosh Laptop ASUS Vivobook 16x M1603QA
 
 ![Preview](README.jpeg)
 
