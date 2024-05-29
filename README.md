@@ -46,4 +46,5 @@
 ## 📉 Not Working / Unstable
 - [x] Advanced OpenGL Apps (Chrome, Brave, etc)
 - [x] Hardware DRM Apps (FL Studio, etc)
+- [x] Fingerprint (MacOs/Windows)
 - [x] Audio Quality (Not Recommended for Audiophile)
