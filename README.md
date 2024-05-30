@@ -26,8 +26,8 @@
 ### [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF)
 - <b>AMD CBS > NBIO Common Options > GFX Configuration > iGPU Configuration</b>: UMA_SPECIFIED (So that the VRAM can be changed)
 - <b>AMD CBS > NBIO Common Options > GFX Configuration > UMA Frame buffer Size</b>: 2G (2G Recommended, 1G minimum for apps with no lags)
-- <b>AMD PBS Option > s3/Modern Standby Support</b>: s3 Enable (For sleep to work)
 - <b>AMD CBS > CPU Common Options > Core Performance Boost</b>: <b>Disable</b> (Reduce Heat and Power Usage) or <b>Enable</b> (Gaming Performance)
+- <b>AMD PBS > s3/Modern Standby Support</b>: s3 Enable (For sleep to work)
 
 ## 📈 Working
 - [x] USB Ports
