@@ -17,7 +17,7 @@
 - When USB Mapping using USBToolbox, enable <b>Use Native Classes</b> in the <b>Settings</b> to avoid USB issues. Mainly stall at startup and possibly sleep.
 - Set the VRAM to at least 1 GB for Apps to be able to run without any lags.
 - Some Apps like Adobe Photoshop need [AMDFriend](https://github.com/NyaomiDEV/AMDFriend) to be able to run. See the details [here](https://chefkissinc.github.io/guide/compatibility#compatibility-issues-with-some-apps).
-- For iServices to work, use stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases). For now, this EFI using stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.4.1). Since Airportitlwm stable version doesn't support MacOs Sonoma.
+- For iServices to work, use stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases). For now, this EFI using stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.4.1). Since [Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) stable version doesn't support MacOs Sonoma.
 - Read other guides from [ChefKissInc](https://chefkissinc.github.io/guide/guide-differences).
 
 ## ⚙️ BIOS
