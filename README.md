@@ -45,7 +45,7 @@
 - [x] HID Key PWRB & SLPB
 
 ## 📉 Not Working / Unstable
-- [] Advanced OpenGL Apps (Chrome, Brave, etc)
-- [] Hardware DRM Apps (FL Studio, etc)
-- [] Fingerprint (MacOs/Windows)
-- [] Audio Quality (Not Recommended for Audiophile)
+- [ ] Advanced OpenGL Apps (Chrome, Brave, etc)
+- [ ] Hardware DRM Apps (FL Studio, etc)
+- [ ] Fingerprint (MacOs/Windows)
+- [ ] Audio Quality (Not Recommended for Audiophile)
