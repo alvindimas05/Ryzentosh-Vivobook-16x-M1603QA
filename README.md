@@ -37,6 +37,7 @@
 - [x] Keyboard (Backlight, Volumes & Brightness Control)
 - [x] Wifi & Bluetooth (Intel)
 - [x] Sleep & Wake (Clamshell, Menu, & Idle)
+- [x] Hibernation (Yes, works with <b>hibernatemode 25</b>)
 - [x] Some Apps (Firefox, VSCode, Discord, etc)
 - [x] Some VMs/Emulators (Nox, iPhone Simulator, Docker (Minikube))
 - [x] Some Games (Roblox, etc)
@@ -44,7 +45,7 @@
 - [x] HID Key PWRB & SLPB
 
 ## 📉 Not Working / Unstable
-- [x] Advanced OpenGL Apps (Chrome, Brave, etc)
-- [x] Hardware DRM Apps (FL Studio, etc)
-- [x] Fingerprint (MacOs/Windows)
-- [x] Audio Quality (Not Recommended for Audiophile)
+- [] Advanced OpenGL Apps (Chrome, Brave, etc)
+- [] Hardware DRM Apps (FL Studio, etc)
+- [] Fingerprint (MacOs/Windows)
+- [] Audio Quality (Not Recommended for Audiophile)
