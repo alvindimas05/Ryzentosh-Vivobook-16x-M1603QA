@@ -10,7 +10,7 @@
 - <b>Ram</b>: 8GB DDR4 on board + 8GB DDR4 SO-DIMM
 - <b>Wireless & Bluetooth</b>: ~~Mediatek MT7921~~ Intel AX200 (Replaced)
 - <b>Audio Codec</b>: ALC256
-- <b>MacOs Version</b>: Sonoma 14.1
+- <b>MacOs Version</b>: Sonoma 14.3.1
 - <b>Installer</b>: Olarilla
 
 ## 🔧 Important Tips
