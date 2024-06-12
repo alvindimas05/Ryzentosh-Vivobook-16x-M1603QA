@@ -19,7 +19,7 @@
 - Some Apps like Adobe Photoshop need [AMDFriend](https://github.com/NyaomiDEV/AMDFriend) to be able to run. See the details [here](https://chefkissinc.github.io/guide/compatibility#compatibility-issues-with-some-apps).
 - For iServices to work, use stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases). For now, this EFI using stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.4.1). Since [Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) stable version doesn't support MacOs Sonoma.
 - Read other guides from [ChefKissInc](https://chefkissinc.github.io/guide/guide-differences).
-- To get _slighty better_ audio quality, use [SpeakerAmp](https://apps.apple.com/us/app/speakeramp-booster-equalizer/id1496955576).
+- There is a bug where suddenly the audio is gone or giving bad sound quality. For me, I use the driver from [SpeakerAmp](https://apps.apple.com/us/app/speakeramp-booster-equalizer/id1496955576) to change Sound Output or Input between options and trigger MacOs to reset it. 
 
 ## ⚙️ BIOS
 ### Default
