@@ -41,7 +41,7 @@
 - [x] Hibernation (Yes, works with <b>hibernatemode 25</b>. Probably unstable)
 - [x] Some Apps (Firefox, VSCode, Discord, etc)
 - [x] Some VMs/Emulators (Nox, iPhone Simulator, Docker (Minikube))
-- [x] Some Games (Roblox, etc)G
+- [x] Some Games (Roblox, etc)
 - [x] iServices (iMessage & Facetime)
 - [x] HID Key PWRB & SLPB
 
