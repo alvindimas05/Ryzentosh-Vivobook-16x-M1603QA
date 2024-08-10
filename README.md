@@ -19,7 +19,7 @@
 - Some Apps like Adobe Photoshop need [AMDFriend](https://github.com/NyaomiDEV/AMDFriend) or use [AMDHelper](https://github.com/alvindimas05/AMDHelper) to be able to run. See the details [here](https://chefkissinc.github.io/guides/hackintosh/compatibility/).
 - For iServices to work, use stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases/latest) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/latest) instead of Airportitlwm.
 - Sometimes the audio suddenly gone when I use audio from audio jack. The solution is to open settings and stay on Mic Input, then change into Line In.
-- Docker Minikube or Nox Android Emulator works because using VirtualBox as driver. Use latest [VirtualBox 6](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1) to make it works.
+- Docker Minikube or Nox Android Emulator works because using they using VirtualBox as driver. Use latest [VirtualBox 6](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1) to make it work.
 
 ## 🔋  Optimization Tips
 - Use [OC Little Daliensky](https://github.com/daliansky/OC-little/tree/master/01-%E5%85%B3%E4%BA%8EAOAC/01-5-%E7%9D%A1%E7%9C%A0%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD%E8%93%9D%E7%89%99WIFI) app to disable internet on sleep
