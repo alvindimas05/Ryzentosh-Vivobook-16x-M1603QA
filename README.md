@@ -16,17 +16,33 @@
 ## 🔧 Important Tips
 - When USB Mapping using USBToolbox, enable <b>Use Native Classes</b> in the <b>Settings</b> to avoid USB issues. Mainly stall at startup and possibly sleep.
 - Set the VRAM to at least 1 GB for Apps to be able to run without any lags.
-- Some Apps like Adobe Photoshop need [AMDFriend](https://github.com/NyaomiDEV/AMDFriend) to be able to run. See the details [here](https://chefkissinc.github.io/guide/compatibility#compatibility-issues-with-some-apps).
-- For iServices to work, use stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases). For now, this EFI using stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.4.1). Since [Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) stable version doesn't support MacOs Sonoma.
-- Read other guides from [ChefKissInc](https://chefkissinc.github.io/guide/guide-differences).
-- There is a bug where suddenly the audio is gone or bad quality. For me, I use the driver from [SpeakerAmp](https://apps.apple.com/us/app/speakeramp-booster-equalizer/id1496955576) to change Sound Output or Input between options and trigger MacOs to reset it. Also, sometimes the audio suddenly gone when I use audio from audio jack. The solution is to open settings on Sound Input.
+- Some Apps like Adobe Photoshop need [AMDFriend](https://github.com/NyaomiDEV/AMDFriend) or use [AMDHelper](https://github.com/alvindimas05/AMDHelper) to be able to run. See the details [here](https://chefkissinc.github.io/guides/hackintosh/compatibility/).
+- For iServices to work, use stable version of [itlwm](https://github.com/OpenIntelWireless/itlwm/releases/latest) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/latest) instead of Airportitlwm.
+- Sometimes the audio suddenly gone when I use audio from audio jack. The solution is to open settings on Sound Input and change into Line In.
+
+## 🔋  Optimization Tips
+- Use [OC Little Daliensky](https://github.com/daliansky/OC-little/tree/master/01-%E5%85%B3%E4%BA%8EAOAC/01-5-%E7%9D%A1%E7%9C%A0%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD%E8%93%9D%E7%89%99WIFI) app to disable internet on sleep
+- Disable [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF) Core Performance Boost.
+- Use [RyzenAdj](https://github.com/FlyGoat/RyzenAdj) for tuning optimization.
+
+### RyzenAdj
+The optimization may be different on other cpus. Use <b>debug=0x144</b> on boot-args and run as sudo. You might need to run ```xattr -c ryzenadj```.
+#### Standard RyzenAdj Optimization
+```
+sudo ryzenadj --stapm-limit=35000 --fast-limit=35000 --slow-limit=35000 --tctl-temp=85
+```
+
+#### Maximize RyzenAdj Optimization
+```
+sudo ryzenadj --stapm-limit=30000 --fast-limit=30000 --slow-limit=30000 --tctl-temp=80 --power-saving
+```
 
 ## ⚙️ BIOS
 ### Default
 - <b>SATA Mode</b>: AHCI
 ### [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF)
 - <b>AMD CBS > NBIO Common Options > GFX Configuration > iGPU Configuration</b>: UMA_SPECIFIED (So that the VRAM can be changed)
-- <b>AMD CBS > NBIO Common Options > GFX Configuration > UMA Frame buffer Size</b>: 2G (2G Recommended, 1G minimum for apps with no lags)
+- <b>AMD CBS > NBIO Common Options > GFX Configuration > UMA Frame buffer Size</b>: 2G (2G Recommended, 1G Minimum)
 - <b>AMD CBS > CPU Common Options > Core Performance Boost</b>: <b>Disable</b> (Reduce Heat and Power Usage) or <b>Enable</b> (Gaming Performance)
 - <b>AMD PBS > s3/Modern Standby Support</b>: s3 Enable (For sleep to work)
 
@@ -46,7 +62,6 @@
 - [x] HID Key PWRB & SLPB
 
 ## 📉 Not Working / Unstable
-- [ ] Advanced OpenGL Apps (Chrome, Brave, etc)
-- [ ] Hardware DRM Apps (FL Studio, etc)
+- [ ] Advanced OpenGL Apps (Chrome, FL Studio, etc)
 - [ ] Fingerprint (MacOs/Windows)
 - [ ] Audio Quality (Not Recommended for Audiophile)
