@@ -22,7 +22,7 @@
 - Docker Minikube or Nox Android Emulator works because using they using VirtualBox as driver. Use latest [VirtualBox 6](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1) to make it work.
 
 ## 🔋  Optimization Tips
-- Use [OC Little Daliensky](https://github.com/daliansky/OC-little/tree/master/01-%E5%85%B3%E4%BA%8EAOAC/01-5-%E7%9D%A1%E7%9C%A0%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD%E8%93%9D%E7%89%99WIFI) app to disable internet on sleep
+- Use [OC Little Daliensky](https://github.com/daliansky/OC-little/tree/master/01-%`E5`%85%B3%E4%BA%8EAOAC/01-5-%E7%9D%A1%E7%9C%A0%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD%E8%93%9D%E7%89%99WIFI) app to disable internet on sleep
 - Disable [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF) Core Performance Boost.
 - Use [RyzenAdj](https://github.com/FlyGoat/RyzenAdj) for tuning optimization.
 
@@ -30,12 +30,12 @@
 The optimization may be different on other cpus. Use <b>debug=0x144</b> on boot-args and run as sudo. You might need to run ```xattr -c ryzenadj```.
 #### Standard RyzenAdj Optimization
 ```
-sudo ryzenadj --stapm-limit=35000 --fast-limit=35000 --slow-limit=35000 --tctl-temp=85
+sudo ryzenadj --stapm-limit=25000 --fast-limit=25000 --slow-limit=25000 --tctl-temp=85
 ```
 
 #### Maximize RyzenAdj Optimization
 ```
-sudo ryzenadj --stapm-limit=30000 --fast-limit=30000 --slow-limit=30000 --tctl-temp=80 --power-saving
+sudo ryzenadj --stapm-limit=15000 --fast-limit=15000 --slow-limit=15000 --tctl-temp=75 --power-saving
 ```
 
 ## ⚙️ BIOS
