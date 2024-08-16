@@ -24,10 +24,25 @@
 ## 🔋  Optimization Tips
 - Use [OC Little Daliensky](https://github.com/daliansky/OC-little/tree/master/01-%`E5`%85%B3%E4%BA%8EAOAC/01-5-%E7%9D%A1%E7%9C%A0%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD%E8%93%9D%E7%89%99WIFI) app to disable internet on sleep
 - Disable [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF) Core Performance Boost.
+- Disable Mac Spotlight and use third party Spotlight like [Raycast](https://www.raycast.com/).
 - Use [RyzenAdj](https://github.com/FlyGoat/RyzenAdj) for tuning optimization.
 
+### Spotlight
+#### Disable Spotlight
+```
+sudo mdutil -a -i off
+```
+#### Delete existing index
+```
+sudo mdutil -aE
+```
+#### Enable Spotlight
+```
+sudo mdutil -a -i on
+```
+
 ### RyzenAdj
-The optimization may be different on other cpus. Use <b>debug=0x144</b> on boot-args and run as sudo. You might need to run ```xattr -c ryzenadj```.
+The optimization may be different on other cpus. Use <b>debug=0x144</b> on boot-args and run as sudo. You might need to run ```chmod +x ryzenadj``` or ```xattr -c ryzenadj```.
 #### Standard RyzenAdj Optimization
 ```
 sudo ryzenadj --stapm-limit=25000 --fast-limit=25000 --slow-limit=25000 --tctl-temp=85
