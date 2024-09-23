@@ -10,8 +10,7 @@
 - <b>Ram</b>: 8GB DDR4 on board + 8GB DDR4 SO-DIMM
 - <b>Wireless & Bluetooth</b>: ~~Mediatek MT7921~~ Intel AX200 (Replaced)
 - <b>Audio Codec</b>: ALC256
-- <b>MacOs Version</b>: Sonoma 14.3.1
-- <b>Installer</b>: Olarilla
+- <b>MacOs Version</b>: Sequoia 15.0
 
 ## 🔧 Important Tips
 - When USB Mapping using USBToolbox, enable <b>Use Native Classes</b> in the <b>Settings</b> to avoid USB issues. Mainly stall at startup and possibly sleep.
@@ -43,6 +42,8 @@ sudo mdutil -a -i on
 
 ### RyzenAdj
 The optimization may be different on other cpus. Use <b>debug=0x144</b> on boot-args and run as sudo. You might need to run ```chmod +x ryzenadj``` or ```xattr -c ryzenadj```.
+
+Note: You need to run this every time you boots (Maybe including hibernation wake) and I'm still trying to find solution for this.
 #### Standard RyzenAdj Optimization
 ```
 sudo ryzenadj --stapm-limit=25000 --fast-limit=25000 --slow-limit=25000 --tctl-temp=85
@@ -80,4 +81,3 @@ sudo ryzenadj --stapm-limit=15000 --fast-limit=15000 --slow-limit=15000 --tctl-t
 ## 📉 Not Working / Unstable
 - [ ] Advanced OpenGL Apps (Chrome, FL Studio, etc)
 - [ ] Fingerprint (MacOs/Windows)
-- [ ] Audio Quality (Not Recommended for Audiophile)
